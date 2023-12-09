@@ -1,0 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+</style> */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} */
+
+.client-card-container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 0 4rem;
+    margin-top: 50px;
+    
+    }
+    
+    .client-card{
+        width: 350px;
+        /* margin: 20px; */
+        border-radius: 5px;
+        box-shadow: 0px 10px 5px rgb(94, 107, 113);
+        overflow: hidden;
+        height: 350px;
+        padding-bottom: 50px;
+        margin-bottom: 3rem;
+    }
+    .client-header{
+        padding-left: 135px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    .client-description{
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    .client-button {
+        padding-left: 135px;
+        color: yellowgreen;
+       padding-bottom: 100px;
+       box-sizing: border-box;
+    }
+   .client-card-image{
+    padding-left: 100px;
+    padding-top: 50px;
+    
+   }
+   .client-header3{
+    padding-left: 140px;
+    padding-bottom: 10px;
+    padding-top: 8px;
+   }
+   .client-img1{
+    border-radius: 50%;
+    border: 3px solid #fff;
+   }
+   .client-title {
+    padding-left: 610px;
+    padding-top: 70px;
+    font-size: 30px;
+   
+   }
+   .subtitle {
+    color: yellowgreen;
+   }
+   .swiper-class{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   }
+   .client-section-card{
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+   }
+   .swiper-container.swiper-container-initialized .swiper-button-prev,
+   .swiper-container.swiper-container-initialized .swiper-button-next {
+     color: red !important; /* Change this color to your desired color */
+   }

@@ -18,7 +18,6 @@ const Aboutme = () => {
         and bring new wonders to the industry.
       </span>
       <div className="skillsbars">
-        ;
         <div className="skillbar">
           <img
             width={100}
