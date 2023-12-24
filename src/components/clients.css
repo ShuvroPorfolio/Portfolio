@@ -14,11 +14,13 @@
     justify-items: center;
     padding: 0 4rem;
     margin-top: 50px;
+    width: 100%;
     
     }
     
     .client-card{
         width: 350px;
+        height: 800px;
         /* margin: 20px; */
         border-radius: 5px;
         box-shadow: 0px 10px 5px rgb(94, 107, 113);
@@ -26,11 +28,12 @@
         height: 350px;
         padding-bottom: 50px;
         margin-bottom: 3rem;
+
     }
     .client-header{
         padding-left: 135px;
         padding-bottom: 10px;
-        padding-top: 5px;
+        padding-top: 15px;
     }
     .client-description{
         padding-left: 30px;
@@ -44,26 +47,28 @@
     }
    .client-card-image{
     padding-left: 100px;
-    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 40px;
     
    }
    .client-header3{
     padding-left: 140px;
     padding-bottom: 10px;
-    padding-top: 8px;
+    padding-top: 15px;
    }
    .client-img1{
-    border-radius: 50%;
-    border: 3px solid #fff;
+    /* border-radius: 5%; */
+    /* border: 3px solid #fff; */
    }
    .client-title {
-    padding-left: 610px;
+    padding-left: 625px;
     padding-top: 70px;
-    font-size: 30px;
+    font-size: 25px;
    
    }
    .subtitle {
     color: yellowgreen;
+
    }
    .swiper-class{
     display: flex;
@@ -77,4 +82,24 @@
    .swiper-container.swiper-container-initialized .swiper-button-prev,
    .swiper-container.swiper-container-initialized .swiper-button-next {
      color: red !important; /* Change this color to your desired color */
+   }
+   
+   .client-image-holder {
+    height: 180px;
+    background-color: rgb(82, 89, 95);
+   }
+   .client-button {
+    color: rgb(184, 193, 200);
+    /* background: gold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    max-width: 20%;
+    padding-left: 60px; */
+   }
+   .swiper-class{
+    padding-left: 20px;
    }

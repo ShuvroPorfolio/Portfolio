@@ -28,14 +28,14 @@ const clients = () => {
   return (
     <section id="client-section-card">
       <div className="client-title">
-        Clients I W<span className="subtitle">o</span>rked With
+        Clients I <span className="subtitle">Worked With</span>
       </div>
 
       <div className="client-card-container">
         <Swiper
           className="swiper-class"
           autoplay={{
-            delay: 2500,
+            delay: 1500,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -51,15 +51,17 @@ const clients = () => {
         >
           <SwiperSlide>
             <div className="client-card">
-              <div className="client-card-image">
-                <img
-                  width={140}
-                  height={120}
-                  img
-                  src={client1}
-                  alt="client1"
-                  className="client-img1"
-                />
+              <div className="client-image-holder">
+                <div className="client-card-image">
+                  <img
+                    width={130}
+                    height={100}
+                    img
+                    src={client1}
+                    alt="client1"
+                    className="client-img1"
+                  />
+                </div>
               </div>
               <div className="clent-content">
                 <h3 className="client-header">Dipto Tv</h3>
@@ -76,15 +78,17 @@ const clients = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="client-card">
-              <div className="client-card-image">
-                <img
-                  width={140}
-                  height={120}
-                  img
-                  src={client2}
-                  alt="client2"
-                  className="client-img1"
-                />
+              <div className="client-image-holder">
+                <div className="client-card-image">
+                  <img
+                    width={130}
+                    height={100}
+                    img
+                    src={client2}
+                    alt="client2"
+                    className="client-img1"
+                  />
+                </div>
               </div>
               <div className="clent-content">
                 <h3 className="client-header">T sports</h3>
@@ -101,15 +105,17 @@ const clients = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="client-card">
-              <div className="client-card-image">
-                <img
-                  width={140}
-                  height={120}
-                  img
-                  src={client4}
-                  alt="client4"
-                  className="client-img1"
-                />
+              <div className="client-image-holder">
+                <div className="client-card-image">
+                  <img
+                    width={130}
+                    height={100}
+                    img
+                    src={client4}
+                    alt="client4"
+                    className="client-img1"
+                  />
+                </div>
               </div>
               <div className="clent-content">
                 <h3 className="client-header3">NTV</h3>
@@ -126,15 +132,17 @@ const clients = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="client-card">
-              <div className="client-card-image">
-                <img
-                  width={140}
-                  height={120}
-                  img
-                  src={client2}
-                  alt="client2"
-                  className="client-img1"
-                />
+              <div className="client-image-holder">
+                <div className="client-card-image">
+                  <img
+                    width={130}
+                    height={100}
+                    img
+                    src={client2}
+                    alt="client2"
+                    className="client-img1"
+                  />
+                </div>
               </div>
               <div className="clent-content">
                 <h3 className="client-header">T sports</h3>
